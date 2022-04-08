@@ -148,11 +148,6 @@ tasks:
     seconds: 10
 
   - action: download_github
-    dest: ./resources/[qb]/qb-customs
-    ref: main
-    src: https://github.com/qbcore-framework/qb-customs
-
-  - action: download_github
     dest: ./resources/[qb]/qb-vehiclesales
     ref: main
     src: https://github.com/qbcore-framework/qb-vehiclesales
@@ -466,6 +461,11 @@ tasks:
     dest: ./resources/[qb]/qb-cityhall
     ref: main
     src: https://github.com/qbcore-framework/qb-cityhall
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-customs
+    ref: main
+    src: https://github.com/qbcore-framework/qb-customs
 
   # Clean up
   - action: remove_path
