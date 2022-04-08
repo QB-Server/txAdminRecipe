@@ -321,11 +321,6 @@ tasks:
     src: https://github.com/qbcore-framework/qb-diving
 
   - action: download_github
-    dest: ./resources/[qb]/qb-cityhall
-    ref: main
-    src: https://github.com/qbcore-framework/qb-cityhall
-
-  - action: download_github
     dest: ./resources/[qb]/qb-anticheat
     ref: main
     src: https://github.com/qbcore-framework/qb-anticheat
@@ -466,6 +461,11 @@ tasks:
     dest: ./resources/[qb]/qb-ambulancejob
     ref: main
     src: https://github.com/qbcore-framework/qb-ambulancejob
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-cityhall
+    ref: main
+    src: https://github.com/qbcore-framework/qb-cityhall
 
   # Clean up
   - action: remove_path
