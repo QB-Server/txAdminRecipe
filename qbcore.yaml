@@ -251,11 +251,6 @@ tasks:
     src: https://github.com/qbcore-framework/qb-traphouse
 
   - action: download_github
-    dest: ./resources/[qb]/qb-apartments
-    ref: main
-    src: https://github.com/qbcore-framework/qb-apartments
-
-  - action: download_github
     dest: ./resources/[qb]/qb-vehiclekeys
     ref: main
     src: https://github.com/qbcore-framework/qb-vehiclekeys
@@ -466,6 +461,11 @@ tasks:
     dest: ./resources/[qb]/qb-core
     ref: main
     src: https://github.com/QB-Server/qb-core
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-apartments
+    ref: main
+    src: https://github.com/qbcore-framework/qb-apartments
 
 
   # Clean up
