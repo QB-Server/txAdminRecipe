@@ -458,6 +458,9 @@ tasks:
     ref: main
     src: https://github.com/qbcore-framework/qb-loading
 
+  - action: waste_time # prevent github throttling
+    seconds: 10
+
   # Modified Scripts
   - action: download_github
     dest: ./resources/[qb]/qb-core
