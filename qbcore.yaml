@@ -465,12 +465,17 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-shops
     ref: main
-    src: https://github.com/qbcore-framework/qb-shops
+    src: https://github.com/QB-Server/qb-shops
 
   - action: download_github
     dest: ./resources/[qb]/qb-hud
     ref: main
-    src: https://github.com/qbcore-framework/qb-hud
+    src: https://github.com/QB-Server/qb-hud
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-hud
+    ref: main
+    src: https://github.com/QB-Server/qb-trashsearch
 
   # Clean up
   - action: remove_path
