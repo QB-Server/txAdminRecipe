@@ -462,10 +462,10 @@ tasks:
     ref: main
     src: https://github.com/QB-Server/qb-multicharacter
 
-  # - action: download_github
-  #   dest: ./resources/[qb]/qb-removenpc
-  #   ref: main
-  #   src: https://github.com/QB-Server/qb-removenpc
+  - action: download_github
+    dest: ./resources/[qb]/qb-removenpc
+    ref: main
+    src: https://github.com/QB-Server/qb-removenpc
 
   - action: download_github
     dest: ./resources/[qb]/qb-radialmenu
