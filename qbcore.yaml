@@ -168,11 +168,6 @@ tasks:
     src: https://github.com/qbcore-framework/qb-atms
     
   - action: download_github
-    dest: ./resources/[qb]/qb-hud
-    ref: main
-    src: https://github.com/qbcore-framework/qb-hud
-
-  - action: download_github
     dest: ./resources/[qb]/qb-management
     ref: main
     src: https://github.com/qbcore-framework/qb-management
@@ -471,6 +466,11 @@ tasks:
     dest: ./resources/[qb]/qb-shops
     ref: main
     src: https://github.com/qbcore-framework/qb-shops
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-hud
+    ref: main
+    src: https://github.com/qbcore-framework/qb-hud
 
   # Clean up
   - action: remove_path
