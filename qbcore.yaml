@@ -389,11 +389,6 @@ tasks:
     src: https://github.com/qbcore-framework/qb-drugs
 
   - action: download_github
-    dest: ./resources/[qb]/qb-shops
-    ref: main
-    src: https://github.com/qbcore-framework/qb-shops
-
-  - action: download_github
     dest: ./resources/[qb]/qb-lockpick
     ref: main
     src: https://github.com/qbcore-framework/qb-lockpick
@@ -471,6 +466,11 @@ tasks:
     dest: ./resources/[qb]/qb-radialmenu
     ref: main
     src: https://github.com/QB-Server/qb-radialmenu
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-shops
+    ref: main
+    src: https://github.com/qbcore-framework/qb-shops
 
   # Clean up
   - action: remove_path
