@@ -455,7 +455,7 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-inventory
     ref: main
-    src: https://github.com/QB-Server/qb-multicharacter
+    src: https://github.com/QB-Server/qb-inventory
 
   - action: download_github
     dest: ./resources/[qb]/qb-multicharacter
