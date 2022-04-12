@@ -469,7 +469,7 @@ tasks:
     src: https://github.com/QB-Server/qb-hud
 
   - action: download_github
-    dest: ./resources/[qb]/qb-hud
+    dest: ./resources/[qb]/qb-trashsearch
     ref: main
     src: https://github.com/QB-Server/qb-trashsearch
 
