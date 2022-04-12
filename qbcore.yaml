@@ -272,10 +272,6 @@ tasks:
     ref: main
     src: https://github.com/qbcore-framework/qb-skillbar
 
-  - action: download_github
-    dest: ./resources/[qb]/qb-smallresources
-    ref: main
-    src: https://github.com/qbcore-framework/qb-smallresources
 
   - action: download_github
     dest: ./resources/[qb]/qb-recyclejob
@@ -478,6 +474,11 @@ tasks:
     src: https://github.com/QB-Server/cfx-server-data
     subpath: resources
     dest: ./resources/[cfx-default]
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-smallresources
+    ref: main
+    src: https://github.com/QB-Server/qb-smallresources
 
   # Clean up
   - action: remove_path
