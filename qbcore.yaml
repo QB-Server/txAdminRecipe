@@ -143,10 +143,6 @@ tasks:
     ref: main
     src: https://github.com/qbcore-framework/qb-vehiclesales
 
-  - action: download_github
-    dest: ./resources/[qb]/qb-vehicleshop
-    ref: main
-    src: https://github.com/qbcore-framework/qb-vehicleshop
 
   - action: download_github
     dest: ./resources/[qb]/qb-houserobbery
@@ -478,6 +474,11 @@ tasks:
     dest: ./resources/[standalone]/mo_postalcode
     ref: main
     src: https://github.com/QB-Server/mo_postalCode/tree/main/mo_postalCode
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-vehicleshop
+    ref: main
+    src: https://github.com/QB-Server/qb-vehicleshop
 
   # Clean up
   - action: remove_path
