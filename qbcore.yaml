@@ -332,10 +332,6 @@ tasks:
     ref: main
     src: https://github.com/qbcore-framework/qb-banking
 
-  - action: download_github
-    dest: ./resources/[qb]/qb-clothing
-    ref: main
-    src: https://github.com/qbcore-framework/qb-clothing
 
   - action: download_github
     dest: ./resources/[qb]/qb-garbagejob
@@ -474,6 +470,11 @@ tasks:
     dest: ./resources/[qb]/qb-vehicleshop
     ref: main
     src: https://github.com/QB-Server/qb-vehicleshop
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-clothing
+    ref: main
+    src: https://github.com/QB-Server/qb-clothing
 
   # Clean up
   - action: remove_path
