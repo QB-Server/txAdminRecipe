@@ -299,11 +299,6 @@ tasks:
     src: https://github.com/qbcore-framework/qb-taxijob
     
   - action: download_github
-    dest: ./resources/[qb]/qb-busjob
-    ref: main
-    src: https://github.com/qbcore-framework/qb-busjob
-
-  - action: download_github
     dest: ./resources/[qb]/qb-newsjob
     ref: main
     src: https://github.com/qbcore-framework/qb-newsjob
@@ -482,7 +477,7 @@ tasks:
   - action: download_github
     dest: ./resources/[standalone]/mo_postalcode
     ref: main
-    src: https://github.com/QB-Server/mo_postalCode
+    src: https://github.com/QB-Server/mo_postalCode/tree/main/mo_postalCode
 
   # Clean up
   - action: remove_path
