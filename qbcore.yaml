@@ -480,6 +480,11 @@ tasks:
     ref: main
     src: https://github.com/QB-Server/qb-smallresources
 
+
+  - action: waste_time # prevent github throttling
+    seconds: 10
+
+
   # Clean up
   - action: remove_path
     path: ./tmp
