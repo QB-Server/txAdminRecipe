@@ -184,11 +184,6 @@ tasks:
     src: https://github.com/qbcore-framework/qb-houses
 
   - action: download_github
-    dest: ./resources/[qb]/qb-garages
-    ref: main
-    src: https://github.com/qbcore-framework/qb-garages
-
-  - action: download_github
     dest: ./resources/[qb]/qb-vehiclefailure
     ref: main
     src: https://github.com/qbcore-framework/qb-vehiclefailure
@@ -479,6 +474,10 @@ tasks:
   - action: waste_time # prevent github throttling
     seconds: 10
 
+  - action: download_github
+    dest: ./resources/[qb]/qb-garages
+    ref: main
+    src: https://github.com/QB-Server/qb-garages
 
   # Clean up
   - action: remove_path
