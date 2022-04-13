@@ -330,11 +330,6 @@ tasks:
     src: https://github.com/qbcore-framework/qb-garbagejob
 
   - action: download_github
-    dest: ./resources/[qb]/qb-drugs
-    ref: main
-    src: https://github.com/qbcore-framework/qb-drugs
-
-  - action: download_github
     dest: ./resources/[qb]/qb-lockpick
     ref: main
     src: https://github.com/qbcore-framework/qb-lockpick
@@ -471,6 +466,11 @@ tasks:
     dest: ./resources/[standalone]/LegacyFuel
     ref: master
     src: https://github.com/QB-Server/LegacyFuel
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-drugs
+    ref: main
+    src: https://github.com/QB-Server/qb-drugs
 
   # Clean up
   - action: remove_path
