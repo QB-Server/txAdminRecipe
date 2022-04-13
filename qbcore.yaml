@@ -87,10 +87,6 @@ tasks:
     ref: master
     src: https://github.com/qbcore-framework/PolyZone
     
-  - action: download_github
-    dest: ./resources/[standalone]/LegacyFuel
-    ref: master
-    src: https://github.com/qbcore-framework/LegacyFuel
     
     # VOICE
   - action: download_github
@@ -470,6 +466,11 @@ tasks:
     dest: ./resources/[qb]/qb-clothing
     ref: main
     src: https://github.com/QB-Server/qb-clothing
+
+  - action: download_github
+    dest: ./resources/[standalone]/LegacyFuel
+    ref: master
+    src: https://github.com/QB-Server/LegacyFuel
 
   # Clean up
   - action: remove_path
