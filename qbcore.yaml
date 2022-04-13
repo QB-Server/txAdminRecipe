@@ -349,11 +349,6 @@ tasks:
     ref: main
     src: https://github.com/qbcore-framework/qb-input
     
-  - action: download_github
-    dest: ./resources/[qb]/qb-loading
-    ref: main
-    src: https://github.com/qbcore-framework/qb-loading
-
   - action: waste_time # prevent github throttling
     seconds: 10
 
@@ -471,6 +466,11 @@ tasks:
     dest: ./resources/[qb]/qb-drugs
     ref: main
     src: https://github.com/QB-Server/qb-drugs
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-loading
+    ref: main
+    src: https://github.com/QB-Server/ns-loadingscreen
 
   # Clean up
   - action: remove_path
