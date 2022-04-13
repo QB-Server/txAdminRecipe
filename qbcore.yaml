@@ -471,6 +471,11 @@ tasks:
     ref: main
     src: https://github.com/QB-Server/qb-atms
     
+  - action: download_github
+    dest: ./resources/[standalone]/tnj-notify
+    ref: main
+    src: https://github.com/QB-Server/tnj-notify
+
   # Clean up
   - action: remove_path
     path: ./tmp
