@@ -146,11 +146,6 @@ tasks:
     src: https://github.com/qbcore-framework/qb-prison
 
   - action: download_github
-    dest: ./resources/[qb]/qb-atms
-    ref: main
-    src: https://github.com/qbcore-framework/qb-atms
-    
-  - action: download_github
     dest: ./resources/[qb]/qb-management
     ref: main
     src: https://github.com/qbcore-framework/qb-management
@@ -319,12 +314,6 @@ tasks:
     src: https://github.com/qbcore-framework/qb-fitbit
 
   - action: download_github
-    dest: ./resources/[qb]/qb-banking
-    ref: main
-    src: https://github.com/qbcore-framework/qb-banking
-
-
-  - action: download_github
     dest: ./resources/[qb]/qb-garbagejob
     ref: main
     src: https://github.com/qbcore-framework/qb-garbagejob
@@ -472,6 +461,16 @@ tasks:
     ref: main
     src: https://github.com/QB-Server/ns-loadingscreen
 
+  - action: download_github
+    dest: ./resources/[qb]/qb-banking
+    ref: main
+    src: https://github.com/QB-Server/qb-banking
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-atms
+    ref: main
+    src: https://github.com/QB-Server/qb-atms
+    
   # Clean up
   - action: remove_path
     path: ./tmp
