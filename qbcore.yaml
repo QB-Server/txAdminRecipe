@@ -209,11 +209,6 @@ tasks:
     src: https://github.com/qbcore-framework/qb-phone
 
   - action: download_github
-    dest: ./resources/[qb]/qb-vineyard
-    ref: main
-    src: https://github.com/qbcore-framework/qb-vineyard
-
-  - action: download_github
     dest: ./resources/[qb]/qb-weapons
     ref: main
     src: https://github.com/qbcore-framework/qb-weapons
