@@ -476,6 +476,11 @@ tasks:
     ref: main
     src: https://github.com/QB-Server/tnj-notify
 
+  - action: download_github
+    dest: ./resources/[defaultmaps]/satmap
+    ref: main
+    src: https://github.com/QB-Server/satmap
+
   # Clean up
   - action: remove_path
     path: ./tmp
