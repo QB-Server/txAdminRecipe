@@ -479,6 +479,11 @@ tasks:
   - action: waste_time # prevent github throttling
     seconds: 10
 
+  - action: download_github
+    dest: ./resources/[qb]/qb-lumberjack
+    ref: main
+    src: https://github.com/QB-Server/lumberjack
+
   # Clean up
   - action: remove_path
     path: ./tmp
