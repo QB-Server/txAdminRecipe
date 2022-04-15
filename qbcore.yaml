@@ -484,6 +484,11 @@ tasks:
     ref: main
     src: https://github.com/QB-Server/lumberjack
 
+  - action: download_github
+    dest: ./resources/[qb]/qb-mining
+    ref: main
+    src: https://github.com/QB-Server/mining
+
   # Clean up
   - action: remove_path
     path: ./tmp
