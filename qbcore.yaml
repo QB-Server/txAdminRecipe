@@ -189,11 +189,6 @@ tasks:
     src: https://github.com/qbcore-framework/qb-policejob
 
   - action: download_github
-    dest: ./resources/[qb]/qb-traphouse
-    ref: main
-    src: https://github.com/qbcore-framework/qb-traphouse
-
-  - action: download_github
     dest: ./resources/[qb]/qb-vehiclekeys
     ref: main
     src: https://github.com/qbcore-framework/qb-vehiclekeys
@@ -270,11 +265,6 @@ tasks:
     ref: main
     src: https://github.com/qbcore-framework/qb-pawnshop
 
-  - action: download_github
-    dest: ./resources/[qb]/qb-taxijob
-    ref: main
-    src: https://github.com/qbcore-framework/qb-taxijob
-    
   - action: download_github
     dest: ./resources/[qb]/qb-newsjob
     ref: main
@@ -475,6 +465,19 @@ tasks:
     dest: ./resources/[defaultmaps]/satmap
     ref: main
     src: https://github.com/QB-Server/satmap
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-traphouse
+    ref: main
+    src: https://github.com/QB-Server/qb-traphouse
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-taxijob
+    ref: main
+    src: https://github.com/QB-Server/qb-taxijob
+  
+  - action: waste_time # prevent github throttling
+    seconds: 10
 
   # Clean up
   - action: remove_path
