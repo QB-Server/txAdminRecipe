@@ -499,6 +499,11 @@ tasks:
     ref: main
     src: https://github.com/Lionh34rt/boostinghack
 
+  - action: download_github
+    dest: ./resources/[qb]/qb-dispatch
+    ref: main
+    src: https://github.com/QB-Server/qb-dispatch
+
   # Clean up
   - action: remove_path
     path: ./tmp
