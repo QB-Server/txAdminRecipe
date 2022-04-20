@@ -494,6 +494,11 @@ tasks:
     ref: main
     src: https://github.com/QB-Server/jl-carboost
 
+  - action: download_github
+    dest: ./resources/[standalone]/boostinghack
+    ref: main
+    src: https://github.com/Lionh34rt/boostinghack
+
   # Clean up
   - action: remove_path
     path: ./tmp
