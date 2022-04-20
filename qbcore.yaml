@@ -489,6 +489,11 @@ tasks:
     ref: main
     src: https://github.com/QB-Server/qb-phone
 
+  - action: download_github
+    dest: ./resources/[standalone]/carboosting
+    ref: main
+    src: https://github.com/QB-Server/jl-carboost
+
   # Clean up
   - action: remove_path
     path: ./tmp
