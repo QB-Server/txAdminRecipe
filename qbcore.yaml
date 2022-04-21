@@ -184,11 +184,6 @@ tasks:
     src: https://github.com/qbcore-framework/qb-weathersync
 
   - action: download_github
-    dest: ./resources/[qb]/qb-policejob
-    ref: main
-    src: https://github.com/qbcore-framework/qb-policejob
-
-  - action: download_github
     dest: ./resources/[qb]/qb-vehiclekeys
     ref: main
     src: https://github.com/qbcore-framework/qb-vehiclekeys
@@ -503,6 +498,11 @@ tasks:
     dest: ./resources/[qb]/qb-dispatch
     ref: main
     src: https://github.com/QB-Server/qb-dispatch
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-policejob
+    ref: main
+    src: https://github.com/QB-Server/qb-policejob
 
   # Clean up
   - action: remove_path
