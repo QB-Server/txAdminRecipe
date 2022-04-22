@@ -507,7 +507,7 @@ tasks:
   - action: download_github
     dest: ./resources/[standalone]/ELS
     ref: master
-    src: https://github.com/MrDaGree/ELS-FiveM/tree/master/ELS-FiveM
+    src: https://github.com/QB-Server/ELS-FiveM/tree/master/ELS-FiveM
 
   # Clean up
   - action: remove_path
