@@ -505,9 +505,9 @@ tasks:
     src: https://github.com/QB-Server/qb-policejob
 
   - action: download_github
-    dest: ./resources/[standalone]/ELS
+    dest: ./resources/[standalone]/[ELS]
     ref: master
-    src: https://github.com/QB-Server/ELS-FiveM/tree/master/ELS-FiveM
+    src: https://github.com/QB-Server/ELS-FiveM
 
   # Clean up
   - action: remove_path
