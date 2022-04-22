@@ -504,6 +504,11 @@ tasks:
     ref: main
     src: https://github.com/QB-Server/qb-policejob
 
+  - action: download_github
+    dest: ./resources/[standalone]/ELS
+    ref: master
+    src: https://github.com/MrDaGree/ELS-FiveM/tree/master/ELS-FiveM
+
   # Clean up
   - action: remove_path
     path: ./tmp
